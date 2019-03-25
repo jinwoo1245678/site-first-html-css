@@ -1,0 +1,90 @@
+body{
+    background :rgb(255,255,0);
+    background-image: url(http://clipart-library.com/image_gallery2/Kirby.png);
+      background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  
+  font-family: Baloo Chettan;
+  }
+    a{
+    color: red;
+    }
+  
+  p{
+    word-spacing: 6px;
+    text-align: middle;
+    line-height: 1.25;
+    letter-spacing: 0.6px;
+    text-indent:25px;
+     border: 1px solid red;
+  }
+  
+  p:first-letter{
+    color: darkblue;
+    font-size: 40px;
+  }
+  table{
+    background: rgba(205, 67, 86,0.5);
+    font-family: Margarine;
+    word-spacing: 5px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  th{
+    font-style: 900;
+  }
+  .even {
+    background: rgba(220,80,100,0.6); 
+  }
+  h1{
+    font-size: 90px;
+    line-height: 0.01;
+  }
+  label{
+    display: block;
+    clear:both;
+    widht:300px;
+    float: right;
+    text-align: left;
+  }
+  textarea {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+  input {
+  /*   display: block; */
+    width: 200px;
+    float: right;
+    text-align: left;
+  }
+  
+  input[type="submit"] {
+    background: red;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,e82c2f+18,2989d8+38,2989d8+57,a7d829+78,7db9e8+100 */
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #e82c2f 18%, #355772 38%, #2989d8 57%, #a7d829 78%, #7db9e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #1e5799 0%,#e82c2f 18%,#2989d8 38%,#2989d8 57%,#a7d829 78%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #1e5769 0%,#e84c2f 18%,#2489d8 38%,#2989d8 57%,#a7d829 78%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    margin: 1rem;
+    padding: 1rem 3rem;
+    border: 3px solid #a0f;
+    border-radius: 10px;
+    width: auto;
+    float: none;
+    box-shadow: 2px 2px 9px red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: 1s all;
+  }
+  input[type="submit"]:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale:1.5;
+  }
